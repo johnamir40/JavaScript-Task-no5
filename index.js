@@ -22,6 +22,7 @@ function electricityBill() {
 
   console.log("bill is " + bill);
 }
+
 function splitBill() {
   let bill = +prompt("what is the total bill ?");
   bill = bill * 1.12;
@@ -29,6 +30,6 @@ function splitBill() {
   bill = bill * 1.14;
   console.log("vat : " + bill);
   let people = +prompt("how many people ?");
-  bill = bil / people;
+  bill = bill / people;
   console.log(" Each : " + bill);
 }
